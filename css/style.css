@@ -6,3 +6,43 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+ h2 {
+     background-color: rgb(83, 172, 167);
+     width: 100%;
+     height: 15%;
+ }
+ .box {
+    display: flex;
+ }
+.first-container:first-child {
+    
+    width: 100%;
+    height: 25%;
+}
+.second-container {
+    background-color: indianred;
+    width: 100%;
+    height: 25%;
+}
+.third-container {
+    background-color: lemonchiffon;
+    width: 100%;
+    height: 25%;
+}
+footer {
+display: flex;
+justify-content: center;
+    background-color: linen;
+    width: 100%;
+    height: 10;
+}
+.footer-left {
+    padding: 10px;
+}
+.footer-right {
+    padding: 10px;
+}
